@@ -1,31 +1,34 @@
-.vform {
-  width: 100%;
-}
-.vform label {
-  width: 100%;
-  margin-bottom: 1px;
-}
-.hform {
-  width: 100%;
-}
-.hform label {
-  width: 40%;
-  margin-bottom: 2px;
-}
-.vform,
-.hform {
-  margin-bottom: 20px;
-  font: 14px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
-}
+
+
+.vform
+  width 100%
+
+.vform label
+    width 100%
+    margin-bottom 1px
+
+.hform
+  width 100%
+
+.hform label
+  width 40%
+  margin-bottom 2px
+
+.vform, .hform
+  color #333
+  font-family "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-size 0.94em
+  margin-bottom 20px
+
 .vform label,
-.hform label {
-  font-size: 14px;
-  vertical-align: middle;
-  display: block;
-  float: left;
-  text-align: left;
-}
+.hform label
+  display block
+  float left
+  font-size 0.94em
+  text-align left
+  vertical-align middle
+  cursor pointer
+
 .vform textarea,
 .vform input[type="text"],
 .vform input[type="password"],
@@ -40,9 +43,9 @@
 .vform input[type="url"],
 .vform input[type="tel"],
 .vform input[type="color"],
-.vform select {
-  width: 100%;
-}
+.vform select
+  width 100%
+
 .hform textarea,
 .hform input[type="text"],
 .hform input[type="password"],
@@ -57,9 +60,9 @@
 .hform input[type="url"],
 .hform input[type="tel"],
 .hform input[type="color"],
-.hform select {
-  width: 60%;
-}
+.hform select
+  width 60%
+
 .vform textarea,
 .vform input[type="text"],
 .vform input[type="password"],
@@ -91,25 +94,25 @@
 .hform input[type="tel"],
 .hform input[type="color"],
 .hform select,
-.hform input[type=file] {
-  display: block;
-  background: #fff;
-  border: 1px solid #ccc;
-  padding: 5px 10px;
-  vertical-align: middle;
-  outline: none;
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  transition: border linear 0.4s, box-shadow linear 0.4s;
-  -o-transition: border linear 0.4s, box-shadow linear 0.4s;
-  -moz-transition: border linear 0.4s, box-shadow linear 0.4s;
-  -webkit-transition: border linear 0.4s, box-shadow linear 0.4s;
-  margin-bottom: 5px;
-  font-size: 13px;
-  line-height: 21px;
-  height: 30px;
-}
+.hform input[type=file]
+  display block
+  background #ffffff
+  border 1px solid #cccccc
+  padding 5px 10px
+  vertical-align middle
+  outline none
+  border-radius 4px
+  -moz-border-radius 4px
+  -webkit-border-radius 4px
+  transition border linear 0.4s, box-shadow linear 0.4s
+  -o-transition border linear 0.4s, box-shadow linear 0.4s
+  -moz-transition border linear 0.4s, box-shadow linear 0.4s
+  -webkit-transition border linear 0.4s, box-shadow linear 0.4s
+  margin-bottom 5px
+  font-size 13px
+  line-height 21px
+  height 30px
+
 .vform input[type="text"]:focus,
 .vform input[type="password"]:focus,
 .vform input[type="datetime"]:focus,
@@ -138,112 +141,111 @@
 .hform input[type="url"]:focus,
 .hform input[type="search"]:focus,
 .hform input[type="tel"]:focus,
-.hform input[type="color"]:focus {
-  border: 1px solid;
-  border-color: rgba(82,168,236,0.8);
-  color: #444;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(81,168,236,0.5);
-  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(81,168,236,0.5);
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(81,168,236,0.5);
-}
+.hform input[type="color"]:focus
+  border 1px solid
+  border-color rgba(82, 168, 236, 0.8)
+  color #444
+  box-shadow inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5)
+  -moz-box-shadow inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5)
+  -webkit-box-shadow inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(81, 168, 236, 0.5)
+
 .vform textarea,
-.hform textarea {
-  min-height: 120px;
-}
+.hform textarea
+  min-height 120px
+
 .vform fieldset,
-.hform fieldset {
-  border: none;
-  padding: 0 1px;
-  margin: 0;
-}
+.hform fieldset
+  border none
+  padding 0 5px
+  margin 0
+
 .vform input[type="file"],
-.hform input[type="file"] {
-  overflow: none;
-}
-.vform input.pre-post {
-  width: 70%;
-  float: left;
-  height: 30px;
-  border-radius: 0;
-}
-.hform input .pre-post {
-  width: 40%;
-  float: left;
-  height: 30px;
-  border-radius: 0;
-}
+.hform input[type="file"]
+  overflow none
+
+.vform input.pre-post
+  width 70%
+  float left
+  height 30px
+  border-radius 0
+
+.hform input .pre-post
+  width 40%
+  float left
+  height 30px
+  border-radius 0
+
 .vform span.pre,
 .hform span.pre,
 .vform span.post,
-.hform span.post {
-  display: block;
-  background-color: #f2f2f2;
-  border: 1px solid #ccc;
-  color: #222;
-  font-size: 13px;
-  line-height: 18px;
-  height: 30px;
-  position: relative;
-  padding: 5px 10px;
-}
+.hform span.post
+  display block
+  background-color #f2f2f2
+  border 1px solid #cccccc
+  color #222222
+  font-size 13px
+  line-height 18px
+  height 30px
+  position relative
+  padding 5px 10px
+
 .vform span.pre,
-.hform span.pre {
-  margin-right: -1px;
-  float: left;
-}
+.hform span.pre
+  margin-right -1px
+  float left
+
 .vform span.post,
-.hform span.post {
-  margin-left: -1px;
-  float: left;
-}
+.hform span.post
+  margin-left -1px
+  float left
+
 .vform input.post,
 .hform input.post,
 .vform span.pre,
-.hform span.pre {
-  border-radius: 4px 0 0 4px;
-  -moz-border-radius: 4px 0 0 4px;
-  -webkit-border-radius: 4px 0 0 4px;
-}
+.hform span.pre
+  border-radius 4px 0 0 4px
+  -moz-border-radius 4px 0 0 4px
+  -webkit-border-radius 4px 0 0 4px
+
 .vform input.pre,
 .hform input.pre,
 .vform span.post,
-.hform span.post {
-  border-radius: 0 4px 4px 0;
-  -moz-border-radius: 0 4px 4px 0;
-  -webkit-border-radius: 0 4px 4px 0;
-}
+.hform span.post
+  border-radius 0 4px 4px 0
+  -moz-border-radius 0 4px 4px 0
+  -webkit-border-radius 0 4px 4px 0
+
 .vform input.pre,
-.vform input.post {
-  width: 75%;
-  float: left;
-  height: 30px;
-}
+.vform input.post
+  width 75%
+  float left
+  height 30px
+
 .hform input.pre,
-.hform input.post {
-  width: 45%;
-  float: left;
-  height: 30px;
-}
+.hform input.post
+  width 45%
+  float left
+  height 30px
+
 .vform span[type="submit"].post,
 .hform span[type="submit"].post,
 .vform span[type="submit"].pre,
-.hform span[type="submit"].pre {
-  cursor: pointer;
-  background-color: #f5f5f5;
-  background-image: linear-gradient(top, #f9f9f9, #efefef);
-  background-image: -ms-linear-gradient(top, #f9f9f9, #efefef);
-  background-image: -moz-linear-gradient(top, #f9f9f9, #efefef);
-  background-image: -webkit-linear-gradient(top, #f9f9f9, #efefef);
-}
+.hform span[type="submit"].pre
+  cursor pointer
+  background-color #f5f5f5
+  background-image linear-gradient(top, #f9f9f9, #efefef)
+  background-image -ms-linear-gradient(top, #f9f9f9, #efefef)
+  background-image -moz-linear-gradient(top, #f9f9f9, #efefef)
+  background-image -webkit-linear-gradient(top, #f9f9f9, #efefef)
+  // filter progid:DXImageTransform.Microsoft.gradient(startColorStr="#f9f9f9", EndColorStr="#efefef")
+
 .vform span[type="submit"].post:hover,
 .hform span[type="submit"].post:hover,
 .vform span[type="submit"].pre:hover,
-.hform span[type="submit"].pre:hover {
-  background: #eee;
-  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#f8f8f8));
-  background: -moz-linear-gradient(top, #eee, #f8f8f8);
-}
+.hform span[type="submit"].pre:hover
+  background #eee
+  background -webkit-gradient(linear, left top, left bottom, from(#eee), to(#f8f8f8))
+  background -moz-linear-gradient(top, #eee, #f8f8f8)
 
-.frmas{
-  display: block
-}
+.hform .c12 input
+  width: 55%

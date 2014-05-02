@@ -1,0 +1,108 @@
+/*
+.vform {
+  width: 100%;
+}
+.vform label {
+  width: 100%;
+  margin-bottom: 1px;
+}
+.hform {
+  width: 100%;
+}
+.hform label {
+  width: 40%;
+  margin-bottom: 2px;
+}
+.vform,
+.hform {
+  color: #333;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.94em;
+  margin-bottom: 20px;
+}
+.vform label,
+.hform label {
+  display: block;
+  float: left;
+  font-size: 0.94em;
+  text-align: left;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.vform .form-control {
+  width: 100%;
+}
+.hform .form-control {
+  width: 60%;
+}
+*/
+/*
+.vform .form-control,
+.hform .form-control {
+  display: block;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  vertical-align: middle;
+  outline: none;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  transition: border linear 0.4s, box-shadow linear 0.4s;
+  -o-transition: border linear 0.4s, box-shadow linear 0.4s;
+  -moz-transition: border linear 0.4s, box-shadow linear 0.4s;
+  -webkit-transition: border linear 0.4s, box-shadow linear 0.4s;
+  margin-bottom: 5px;
+  font-size: 13px;
+  line-height: 21px;
+  height: 30px;
+}
+.vform .form-control:focus,
+.hform .form-control:focus {
+  border: 1px solid;
+  border-color: rgba(82,168,236,0.8);
+  color: #444;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(81,168,236,0.5);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(81,168,236,0.5);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(81,168,236,0.5);
+}*/
+
+
+
+/*.vform textarea,
+.hform textarea {
+  min-height: 120px;
+}
+.vform fieldset,
+.hform fieldset {
+  border: none;
+  padding: 0 5px;
+  margin: 0;
+}
+.vform input[type="file"],
+.hform input[type="file"] {
+  overflow: none;
+}
+*/
+
+
+/* Media query for 960 Screens - sets nested grids to 100% */
+/*@media only screen and (max-width:960px){
+  .row .row .c1,.row .row .c2,.row .row .c3,.row .row .c4,.row .row .c5,.row .row .c6,.row .row .c7,.row .row .c8,.row .row .c9,.row .row .c10,.row .row .c11,.row .row .c12,.row .row .c1-5,.row .row .c1-8{width:100%;margin-bottom:20px;margin-left:0px;margin-right:0px; }
+  .row .row > div:last-child{margin-bottom:0 !important}
+}
+
+
+@media handheld, only screen and (max-width: 768px), only screen and (max-device-width: 768px) and (orientation:portrait){
+  body{font-size:90%}
+  .row{margin-bottom:0!important}
+  .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12,.c1-5,.c1-8{width:100%;margin-right:0;margin-left:0;margin-bottom:10px; padding:0 5px;}
+  .c1.first,.c2.first,.c3.first,.c4.first,.c5.first,.c6.first,.c7.first,.c8.first,.c9.first,.c10.first,.c11.first,.c1-5.first,.c1-8.first {
+    padding-left: 10px; position:relative;
+  }
+  .c1.last,.c2.last,.c3.last,.c4.last,.c5.last,.c6.last,.c7.last,.c8.last,.c9.last,.c10.last,.c11.last,.c1-5.last,.c1-8.last {
+    padding-right: 10px; position:relative;
+  }
+}
+
+*/
